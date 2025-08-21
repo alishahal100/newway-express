@@ -3,6 +3,7 @@
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import { motion } from 'framer-motion'
+import Contact from '@/components/Contact'
 
 export default function Services() {
   const services = [
@@ -189,7 +190,7 @@ export default function Services() {
           </motion.div>
         </div>
       </section>
-
+            <Contact/>
       <Footer />
     </main>
   )

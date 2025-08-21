@@ -45,7 +45,7 @@ const Navbar = () => {
                 alt="Newway Express Logo"
                 width={500}
                 height={150}
-                className="h-20 sm:h-24 md:h-28 lg:h-32 xl:h-36 w-auto"
+                className="h-20 sm:h-32 md:h-32 lg:h-36 xl:h-40 w-auto"
                 priority
               />
             </Link>

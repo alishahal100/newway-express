@@ -3,6 +3,7 @@
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import { motion } from 'framer-motion'
+import Contact from '@/components/Contact'
 
 export default function Clients() {
   const clients = [
@@ -250,7 +251,7 @@ export default function Clients() {
           </motion.div>
         </div>
       </section>
-
+      <Contact/>
       <Footer />
     </main>
   )

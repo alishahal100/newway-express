@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import Contact from '@/components/Contact'
 
 export default function About() {
   return (
@@ -164,6 +165,7 @@ export default function About() {
           </div>
         </div>
       </section>
+      <Contact/>
 
       <Footer />
     </main>
