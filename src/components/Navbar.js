@@ -41,7 +41,7 @@ const Navbar = () => {
           >
             <Link href="/" className="flex items-center">
               <Image
-                src="/logo2.PNG"
+                src="/logo2.png"
                 alt="Newway Express Logo"
                 width={500}
                 height={150}
