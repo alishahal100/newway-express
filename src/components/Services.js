@@ -1,5 +1,6 @@
 'use client'
 import { motion } from 'framer-motion'
+import { FaTruckMoving } from 'react-icons/fa'
 
 const Services = () => {
   const services = [
@@ -47,6 +48,11 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
         </svg>
       )
+    },
+    {
+      title: 'Transportation & Vehicles',
+      description: 'Modern fleet of trucks and transportation vehicles ensuring safe and timely deliveries.',
+      icon: <FaTruckMoving className="w-8 h-8" />
     }
   ]
 

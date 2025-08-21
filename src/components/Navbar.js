@@ -40,14 +40,15 @@ const Navbar = () => {
             className="flex-shrink-0"
           >
             <Link href="/" className="flex items-center">
-              <Image
-                src="/logo2.png"
-                alt="Newway Express Logo"
-                width={500}
-                height={150}
-                className="h-20 sm:h-32 md:h-32 lg:h-36 xl:h-40 w-auto"
-                priority
-              />
+             <Image
+  src="/logo2.png"
+  alt="Newway Express Logo"
+  width={500}
+  height={550}
+  className="h-36 w-36 sm:h-36 sm:w-36 md:h-40 md:w-36 lg:h-48 lg:w-36 xl:h-48 xl:w-36 2xl:h-40 2xl:w-36"
+  priority
+/>
+
             </Link>
           </motion.div>
 
