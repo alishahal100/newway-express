@@ -57,7 +57,7 @@ const Vehicles = () => {
                   src={vehicle.image}
                   alt={vehicle.name}
                   fill
-                  className="object-contain rounded-lg"
+                  className="object-contain rounded-xl"
                 />
               </div>
 
