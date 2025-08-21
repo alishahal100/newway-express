@@ -10,7 +10,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <main className="min-h-screen relative">
+    <main className="min-h-screen relative overflow-x-hidden">
       <Navbar />
       <Hero />
       <Introduction />
