@@ -61,10 +61,10 @@ const Contact = () => {
                   Phone
                 </h3>
                 <p className="text-blue-600 font-medium text-lg">
-                  +966 86 090 7276
+                  +966 54 996 8113
                 </p>
                 <p className="text-blue-600 font-medium text-lg">
-                  +966 88 000 3854
+                  Tel: 535983684
                 </p>
               </div>
             </motion.div>
@@ -106,47 +106,52 @@ const Contact = () => {
             </motion.div>
 
             {/* Address */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
-              viewport={{ once: true }}
-              className="flex items-start space-x-4"
-            >
-              <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                <svg
-                  className="w-6 h-6 text-white"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17.657 16.657L13.414 
-                    20.9a1.998 1.998 0 01-2.827 
-                    0l-4.244-4.243a8 8 0 1111.314 
-                    0z"
-                  />
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M15 11a3 3 0 11-6 0 3 3 0 016 
-                    0z"
-                  />
-                </svg>
-              </div>
-              <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  Address
-                </h3>
-                <p className="text-gray-600">
-                  Büyükdere Avenue, Levent, Istanbul, Türkiye
-                </p>
-              </div>
-            </motion.div>
+            {/* Address */}
+<motion.div
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.6 }}
+  viewport={{ once: true }}
+  className="flex items-start space-x-4"
+>
+  <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
+    <svg
+      className="w-6 h-6 text-white"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M17.657 16.657L13.414 
+        20.9a1.998 1.998 0 01-2.827 
+        0l-4.244-4.243a8 8 0 1111.314 
+        0z"
+      />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M15 11a3 3 0 11-6 0 3 3 0 016 
+        0z"
+      />
+    </svg>
+  </div>
+  <div>
+    <h3 className="text-lg font-semibold text-gray-900 mb-2">
+      Address
+    </h3>
+    <p className="text-gray-600">
+      Building No: 7154, Plot ID: 7154, IBNMIJAH Street <br />
+      City: Riyadh, Sub Division: Sulay <br />
+      State: Riyadh, Pin Code: 14322 <br />
+      Country: Saudi Arabia <br />
+      
+    </p>
+  </div>
+</motion.div>
           </motion.div>
 
           {/* Contact Form */}

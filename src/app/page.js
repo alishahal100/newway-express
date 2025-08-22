@@ -8,8 +8,11 @@ import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import { FaWhatsapp } from "react-icons/fa";
 import Vehicles from '@/components/Fleet'
+import Clients from '@/components/Clients'
+
 
 export default function Home() {
+ 
   return (
     <main className="min-h-screen relative overflow-x-hidden">
       <Navbar />
@@ -17,7 +20,9 @@ export default function Home() {
       <Introduction />
       <Main />
       <Services />
+     
       <Vehicles/>
+      <Clients/>
       <FAQ />
       <Contact />
       <Footer />

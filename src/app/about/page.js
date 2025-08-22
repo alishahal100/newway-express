@@ -48,7 +48,7 @@ export default function About() {
                 Our Story
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Founded in 2000, Newway Express began as a small logistics company with a big vision: to revolutionize how businesses move goods across the world. What started in Riyadh, KSA has grown into a global network spanning multiple continents.
+                Founded in 2010, Newway Express began as a small logistics company with a big vision: to revolutionize how businesses move goods across the world. What started in Riyadh, KSA has grown into a global network spanning multiple continents.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
                 Over two decades, we ve built our reputation on three core principles: reliability, innovation, and customer satisfaction. We ve evolved from a local courier service to a comprehensive logistics solutions provider trusted by businesses worldwide.

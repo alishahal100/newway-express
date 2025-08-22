@@ -46,7 +46,7 @@ const Introduction = () => {
               viewport={{ once: true }}
               className="text-lg text-gray-600 leading-relaxed"
             >
-              Founded in 2000, and headquartered in <strong>Riyadh KSA</strong>, we serve clients across several countries, supported by a dedicated team of logistics professionals, cutting-edge technology, and a wide global network.
+              Founded in 2010, and headquartered in <strong>Riyadh KSA</strong>, we serve clients across several countries, supported by a dedicated team of logistics professionals, cutting-edge technology, and a wide global network.
             </motion.p>
           </motion.div>
 

@@ -65,20 +65,28 @@ const Footer = () => {
           </motion.div>
 
           {/* Contact Information */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            viewport={{ once: true }}
-            className="space-y-4"
-          >
-            <h3 className="text-lg font-semibold text-white mb-4">Contact Info</h3>
-            <div className="space-y-2 text-sm text-gray-300">
-              <p>+966 00 300 7276</p>
-              <p>+966 00 840 3802</p>
-              <p>Büyükdere Avenue, Levent, Istanbul, Türkiye</p>
-            </div>
-          </motion.div>
+         {/* Contact Information */}
+<motion.div
+  initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, delay: 0.2 }}
+  viewport={{ once: true }}
+  className="space-y-4"
+>
+  <h3 className="text-lg font-semibold text-white mb-4">Contact Info</h3>
+  <div className="space-y-2 text-sm text-gray-300">
+    <p>+966 54 996 8113</p>
+    
+    
+    <p>Tel: 535983684</p>
+    <p>Building No: 7154, Plot ID: 7154</p>
+    <p>IBNMIJAH Street, Sulay</p>
+    <p>City: Riyadh, State: Riyadh</p>
+    <p>Pin Code: 14322</p>
+    <p>Saudi Arabia</p>
+  </div>
+</motion.div>
+
 
           {/* Social Media */}
           <motion.div
