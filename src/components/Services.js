@@ -49,11 +49,11 @@ const Services = () => {
         </svg>
       )
     },
-    // {
-    //   title: 'Transportation & Vehicles',
-    //   description: 'Modern fleet of trucks and transportation vehicles ensuring safe and timely deliveries.',
-    //   icon: <FaTruckMoving className="w-8 h-8" />
-    // }
+     {
+       title: 'Transportation',
+       description: 'Modern fleet of trucks and transportation vehicles ensuring safe and timely deliveries.',
+       icon: <FaTruckMoving className="w-8 h-8" />
+     }
   ]
 
   return (
