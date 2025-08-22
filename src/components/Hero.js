@@ -57,7 +57,7 @@ const Hero = () => {
  
    <span className="text-orange-500">  Delivering Promise</span>
    <br/>
-    With Trust,<br/> With Time.
+    <span className="text-semibold">  With Trust, On Time.</span> 
 </motion.h1>
 
 
