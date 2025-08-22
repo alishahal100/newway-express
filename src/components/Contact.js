@@ -64,7 +64,7 @@ const Contact = () => {
                   +966 54 996 8113
                 </p>
                 <p className="text-blue-600 font-medium text-lg">
-                  Tel: 535983684
+                 +966 53 598 3684
                 </p>
               </div>
             </motion.div>
@@ -100,7 +100,7 @@ const Contact = () => {
                   Email
                 </h3>
                 <p className="text-blue-600 font-medium">
-                  info@newwayexpress.com
+                  accounts@newwayexpress.com
                 </p>
               </div>
             </motion.div>

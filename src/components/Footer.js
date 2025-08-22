@@ -76,9 +76,9 @@ const Footer = () => {
   <h3 className="text-lg font-semibold text-white mb-4">Contact Info</h3>
   <div className="space-y-2 text-sm text-gray-300">
     <p>+966 54 996 8113</p>
-    
-    
-    <p>Tel: 535983684</p>
+
+
+    <p>+966 53 598 3684</p>
     <p>Building No: 7154, Plot ID: 7154</p>
     <p>IBNMIJAH Street, Sulay</p>
     <p>City: Riyadh, State: Riyadh</p>
