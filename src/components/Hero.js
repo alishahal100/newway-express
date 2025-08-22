@@ -55,7 +55,7 @@ const Hero = () => {
   className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight mb-8 text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)] tracking-tight"
 >
   Powering Global <br />
-  <span className="text-blue-500">Trade</span> <br />
+  <span className="text-orange-500">Trade</span> <br />
   With Speed & Reliability
 </motion.h1>
 
