@@ -54,9 +54,10 @@ const Hero = () => {
   transition={{ duration: 0.8, delay: 0.4 }}
   className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight mb-8 text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)] tracking-tight"
 >
-  Powering Global <br />
-  <span className="text-orange-500">Trade</span> <br />
-  With Speed & Reliability
+ 
+   <span className="text-orange-500">  Delivering Promise</span>
+   <br/>
+    With Trust,<br/> With Time.
 </motion.h1>
 
 
