@@ -98,9 +98,10 @@ export default function About() {
                 </svg>
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
-              <p className="text-gray-600 leading-relaxed">
-                To streamline global logistics through innovative technology, dedicated service, and a passion for excellence, making international trade accessible and efficient for businesses of all sizes.
-              </p>
+             <p className="text-gray-600 leading-relaxed">
+  We simplify global logistics with smart technology, reliable service, and a commitment to speed — making international trade seamless, efficient, and accessible for businesses everywhere.
+</p>
+
             </motion.div>
 
             <motion.div
@@ -118,8 +119,9 @@ export default function About() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
               <p className="text-gray-600 leading-relaxed">
-                To be the worlds most trusted logistics partner, setting industry standards for innovation, sustainability, and customer service while building bridges between global markets.
-              </p>
+  Our vision is to become the world’s most trusted logistics partner — leading with innovation, driving sustainability, and delivering service that connects businesses across global markets.
+</p>
+
             </motion.div>
           </div>
         </div>

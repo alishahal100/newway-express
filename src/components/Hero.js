@@ -48,16 +48,19 @@ const Hero = () => {
         </motion.div>
 
         {/* Main Heading - Improved mobile text wrapping */}
-        <motion.h1
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-24 sm:mb-32 md:mb-36 leading-tight drop-shadow-lg px-1 sm:px-2"
-        >
-          <span className=" text-orange-500 block">Delivering Excellence,</span>
-          <span className=" block">On Time,</span>
-          <span className=" block">Every Time</span>
-        </motion.h1>
+      <motion.h1
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, delay: 0.4 }}
+  className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight mb-8 text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)] tracking-tight"
+>
+  Powering Global <br />
+  <span className="text-blue-500">Trade</span> <br />
+  With Speed & Reliability
+</motion.h1>
+
+
+
 
         {/* Paragraph */}
         {/* <motion.p
