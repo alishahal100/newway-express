@@ -4,8 +4,8 @@ import { motion } from 'framer-motion'
 
 const Clients = () => {
   const stats = [
-    { number: "500+", label: "Happy Clients" },
-    { number: "50+", label: "Countries Served" },
+    { number: "100+", label: "Happy Clients" },
+    { number: "7+", label: "Countries Served" },
     { number: "99.9%", label: "On-Time Delivery" },
     { number: "24/7", label: "Customer Support" },
   ];

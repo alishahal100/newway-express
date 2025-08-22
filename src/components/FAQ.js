@@ -7,24 +7,29 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: 'Do you offer real-time shipment tracking?',
+      question: 'How quickly can you deliver shipments domestically?',
       answer:
-        'Yes, we provide real-time tracking for all shipments through our digital platform. Clients receive live updates and notifications at each major checkpoint, ensuring full visibility throughout the delivery process.',
+        'Most domestic shipments are delivered within 24–72 hours depending on the distance and service type. We also provide express same-day and next-day delivery options in select regions.',
     },
     {
-      question: 'What measures do you take to ensure cargo security?',
+      question: 'Do you handle temperature-sensitive or perishable goods?',
       answer:
-        'We follow strict security protocols including GPS-monitored vehicles, sealed containers, and background-checked drivers. For high-value cargo, we also offer additional security escorts and tamper-proof locks.',
+        'Yes, we offer specialized refrigerated and temperature-controlled transport for perishable goods such as food, medicine, and chemicals. Our vehicles are equipped with real-time temperature monitoring systems.',
     },
     {
-      question: 'Are you licensed and insured for both domestic and international shipments?',
+      question: 'Can I integrate your tracking system with my business software?',
       answer:
-        'Absolutely. We are fully licensed and insured to handle both domestic and cross-border shipments. We also comply with international regulations such as IATA and customs requirements to ensure smooth clearance.',
+        'Absolutely. Our digital tracking platform offers API integrations that allow seamless connectivity with ERP, e-commerce, and warehouse management systems for streamlined operations.',
     },
     {
-      question: 'Will I have a dedicated account manager or point of contact?',
+      question: 'What happens if my shipment gets delayed?',
       answer:
-        'Yes, every client is assigned a dedicated account manager who acts as your single point of contact. They oversee your shipments, handle coordination, and provide timely support to ensure a seamless experience.',
+        'We proactively notify clients about any delays and provide real-time status updates. Our team also works to quickly resolve the issue and minimize disruption while offering alternative solutions if needed.',
+    },
+    {
+      question: 'Do you provide international shipping services?',
+      answer:
+        'Yes, we handle both imports and exports across major global trade lanes. Our services include customs clearance, documentation, freight forwarding, and last-mile delivery at destination countries.',
     },
   ]
 
@@ -40,7 +45,7 @@ const FAQ = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Frequently Asked Questions.
+            Frequently Asked Questions
           </h2>
         </motion.div>
 

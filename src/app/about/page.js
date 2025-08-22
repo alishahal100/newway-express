@@ -47,12 +47,17 @@ export default function About() {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 Our Story
               </h2>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                Founded in 2010, Newway Express began as a small logistics company with a big vision: to revolutionize how businesses move goods across the world. What started in Riyadh, KSA has grown into a global network spanning multiple continents.
-              </p>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                Over two decades, we ve built our reputation on three core principles: reliability, innovation, and customer satisfaction. We ve evolved from a local courier service to a comprehensive logistics solutions provider trusted by businesses worldwide.
-              </p>
+             <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              viewport={{ once: true }}
+              className="text-lg text-gray-600 leading-relaxed"
+            >
+              <strong>New Way Express – Logistic Solutions</strong> is a Saudi Arabia–based logistics company
+              providing comprehensive transport and supply chain services. With a commitment to flexibility,
+              reliability, and modern solutions, we serve businesses across the Kingdom and the GCC region.
+            </motion.p>
             </motion.div>
             
             <motion.div

@@ -18,7 +18,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Introduction />
-      <Main />
+      
       <Services />
      
       <Vehicles/>

@@ -22,10 +22,10 @@ const Introduction = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Introduction
+                A New Era in Logistics
               </h2>
               <h3 className="text-xl md:text-2xl font-semibold text-blue-600 mb-6">
-                We are constantly evolving to reduce our environmental impact while helping clients achieve their green goals.
+                Speed, reliability, and innovation in logistics across Saudi Arabia & GCC.
               </h3>
             </motion.div>
 
@@ -36,7 +36,9 @@ const Introduction = () => {
               viewport={{ once: true }}
               className="text-lg text-gray-600 leading-relaxed"
             >
-              <strong>Newway Express</strong> is a leading global logistics and supply chain solutions provider, widely recognized as the best logistics company in the world. With a reputation for reliability, efficiency, and innovation, we offer end-to-end logistics services that empower businesses to operate seamlessly across borders and industries.
+              <strong>New Way Express – Logistic Solutions</strong> is a Saudi Arabia–based logistics company
+              providing comprehensive transport and supply chain services. With a commitment to flexibility,
+              reliability, and modern solutions, we serve businesses across the Kingdom and the GCC region.
             </motion.p>
 
             <motion.p
@@ -46,7 +48,10 @@ const Introduction = () => {
               viewport={{ once: true }}
               className="text-lg text-gray-600 leading-relaxed"
             >
-              Founded in 2010, and headquartered in <strong>Riyadh KSA</strong>, we serve clients across several countries, supported by a dedicated team of logistics professionals, cutting-edge technology, and a wide global network.
+              From <strong>domestic & international transportation</strong> to 
+              <strong> warehousing, distribution, and freight forwarding</strong>, 
+              our specialized fleet – including freezer trucks and boom trucks – ensures safe and efficient delivery 
+              for industries ranging from retail and e-commerce to construction and heavy equipment.
             </motion.p>
           </motion.div>
 
@@ -62,7 +67,7 @@ const Introduction = () => {
               {/* Company Image */}
               <Image
                 src="/img1.jpg"
-                alt="Newway Express Company"
+                alt="New Way Express Company"
                 fill
                 className="object-cover"
                 priority

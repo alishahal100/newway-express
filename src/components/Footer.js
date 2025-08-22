@@ -39,62 +39,57 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid md:grid-cols-3 gap-8">
-          {/* Logo and Company Info */}
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+          
+          {/* Logo Section */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="space-y-4"
+            className="flex flex-col items-center md:items-start space-y-4"
           >
             <Link href="/" className="flex items-center">
               <Image
                 src="/logo.PNG"
                 alt="Newway Express Logo"
-                width={500}
-                height={150}
-                className="h-20 sm:h-24 md:h-28 lg:h-32 xl:h-36 w-auto"
+                width={180}
+                height={60}
+                className="h-36 w-auto"
                 priority
               />
             </Link>
-            {/* <p className="text-gray-300 text-sm leading-relaxed">
-              Leading global logistics and supply chain solutions provider, delivering excellence on time, every time.
-            </p> */}
+            <p className="text-gray-400 text-sm text-center md:text-left">
+              Delivering excellence in logistics and supply chain solutions.
+            </p>
           </motion.div>
 
-          {/* Contact Information */}
-         {/* Contact Information */}
-<motion.div
-  initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.8, delay: 0.2 }}
-  viewport={{ once: true }}
-  className="space-y-4"
->
-  <h3 className="text-lg font-semibold text-white mb-4">Contact Info</h3>
-  <div className="space-y-2 text-sm text-gray-300">
-    <p>+966 54 996 8113</p>
+          {/* Contact Section */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            viewport={{ once: true }}
+            className="space-y-3"
+          >
+            <h3 className="text-lg font-semibold text-white mb-4">Contact Info</h3>
+            <p className="text-gray-300 text-sm"> +966 54 996 8113</p>
+            <p className="text-gray-300 text-sm"> +966 53 598 3684</p>
+            <p className="text-gray-300 text-sm">Building No: 7154, Plot ID: 7154</p>
+            <p className="text-gray-300 text-sm">IBNMIJAH Street, Sulay</p>
+            <p className="text-gray-300 text-sm">City: Riyadh, State: Riyadh</p>
+            <p className="text-gray-300 text-sm">Pin Code: 14322</p>
+            <p className="text-gray-300 text-sm">Saudi Arabia</p>
+          </motion.div>
 
-
-    <p>+966 53 598 3684</p>
-    <p>Building No: 7154, Plot ID: 7154</p>
-    <p>IBNMIJAH Street, Sulay</p>
-    <p>City: Riyadh, State: Riyadh</p>
-    <p>Pin Code: 14322</p>
-    <p>Saudi Arabia</p>
-  </div>
-</motion.div>
-
-
-          {/* Social Media */}
+          {/* Social Section */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
-            className="space-y-4"
+            className="flex flex-col items-center md:items-start space-y-4"
           >
             <h3 className="text-lg font-semibold text-white mb-4">Follow Us</h3>
             <div className="flex space-x-4">
@@ -123,10 +118,10 @@ const Footer = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.8 }}
           viewport={{ once: true }}
-          className="border-t border-gray-800 mt-12 pt-8 text-center"
+          className="border-t border-gray-800 mt-12 pt-6 text-center"
         >
           <p className="text-gray-400 text-sm">
-            © All Rights Reserved. Newway Express
+            © {new Date().getFullYear()} Newway Express. All Rights Reserved.
           </p>
         </motion.div>
       </div>
